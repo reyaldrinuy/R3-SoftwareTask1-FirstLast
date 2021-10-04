@@ -13,6 +13,7 @@ The Arduino UNO's 5 volt and ground pin is connected to a breadboard to power al
 
 
 ##C++ code
+
 The code begins by assigning each PWM pin used to a corresponding variable (named as 'pin4', 'pin5',..., 'pin11'). Other significant variables hold information such as the potentiometer input value. The pinMode() function assigns each pin as either an output or an input. In this case, every pin other than 'A0' (which is responsible for the potentiometer's input) is labelled as 'OUTPUT'. It then continues into a loop block, where the potenValue is assigned the value of the potentiometer. That value is then converted into two digits and separates the digit in the tens place and ones place.
 
 I added some functionality where the values of each variable (such as potentiometer value and digit in ones and tens place) is printed in the console/serial monitor for easier use and monitoring of the whole curcuit. 
